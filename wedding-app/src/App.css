@@ -14,15 +14,15 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.TextArea{
+/* .TextArea{
   width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.App-header {
+/* .App-header {
   background: url(images/beautiful-rustic-wedding-reception-ideas-with-lights.jpg);
   min-height: 100vh;
   display: flex;
@@ -32,7 +32,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   width: 50%;
-}
+} */
 
 .App-link {
   color: #61dafb;

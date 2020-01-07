@@ -1,0 +1,9 @@
+.ImagesArea {
+    background: url(../images/beautiful-rustic-wedding-reception-ideas-with-lights.jpg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }

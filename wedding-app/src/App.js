@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
 import TextArea from './components/TextArea'
+import ImagesArea from './components/ImagesArea';
 
 function App() {
   return (
     <div className="App">
       <TextArea />
-      <header className="App-header">
-        <p>hejka</p>
-      </header>
+      <ImagesArea/>
       
     </div>
   );
