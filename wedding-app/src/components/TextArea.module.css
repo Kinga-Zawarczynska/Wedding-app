@@ -18,3 +18,15 @@
   .HeaderTextArea p{
   cursor: pointer;
   }
+
+  .MiddleTextArea{
+    display: flex;
+    flex-direction: column;
+  }
+  .MiddleTextArea a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .MiddleTextArea a:hover{
+    font-weight: bold;
+  }

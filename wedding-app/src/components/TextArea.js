@@ -10,7 +10,14 @@ export default class TextArea extends Component {
                 <p>Zaloguj</p>
             </div>
             <div className={styles.MiddleTextArea}>
-                inputy
+                <p>Kościół</p>
+                <p>miejsce</p>
+                <p>godzina</p>
+                <img alt=''/>
+                <a href=''>Jak dojechać</a>
+
+                
+                
             </div>
             </div>
         )
