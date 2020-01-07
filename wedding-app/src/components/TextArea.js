@@ -6,7 +6,7 @@ export default class TextArea extends Component {
         return (
             <div className={styles.TextArea}>
             <div className={styles.HeaderTextArea}>
-                <p>Natalka i Konrad</p>
+                <p>Natalka&Konrad</p>
                 <p>Zaloguj</p>
             </div>
             <div className={styles.MiddleTextArea}>

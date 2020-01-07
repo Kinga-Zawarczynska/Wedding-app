@@ -12,7 +12,8 @@
     display: flex;
     width: 80%;
     justify-content: space-between;
-    font-size: 26px;
+    font-size: 56px;
+    font-family: myFirstFont;
   }
 
   .HeaderTextArea p{
@@ -29,4 +30,9 @@
   }
   .MiddleTextArea a:hover{
     font-weight: bold;
+  }
+
+  @font-face {
+    font-family: myFirstFont;
+    src: url(../isabela-zvpvx.otf);
   }
