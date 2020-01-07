@@ -9,7 +9,7 @@ export default class TextArea extends Component {
                 <p>Natalka i Konrad</p>
                 <p>Zaloguj</p>
             </div>
-            <div className={styles.HeaderTextArea}>
+            <div className={styles.MiddleTextArea}>
                 inputy
             </div>
             </div>
