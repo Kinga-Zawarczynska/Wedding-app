@@ -5,7 +5,13 @@ export default class TextArea extends Component {
     render() {
         return (
             <div className={styles.TextArea}>
-            <p>Inputy tu</p>
+            <div className={styles.HeaderTextArea}>
+                <p>Natalka i Konrad</p>
+                <p>Zaloguj</p>
+            </div>
+            <div className={styles.HeaderTextArea}>
+                inputy
+            </div>
             </div>
         )
     }
