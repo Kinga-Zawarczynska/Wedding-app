@@ -4,7 +4,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    background: rgb(240,202,164);
+    background: linear-gradient( rgb(241, 192, 142) 0%, rgb(236, 147, 58) 100%);
   }
 
   .HeaderTextArea{
