@@ -6,8 +6,9 @@ import ImagesArea from './components/ImagesArea';
 function App() {
   return (
     <div className="App">
-      <TextArea />
       <ImagesArea/>
+      <TextArea />
+      
       
     </div>
   );

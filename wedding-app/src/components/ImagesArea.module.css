@@ -1,4 +1,5 @@
 .ImagesArea {
+    order: 1;
     background: url(../images/beautiful-rustic-wedding-reception-ideas-with-lights.jpg);
     min-height: 100vh;
     display: flex;
