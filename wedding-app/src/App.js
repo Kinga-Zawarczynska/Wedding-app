@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import TextArea from './components/TextArea'
 
 function App() {
   return (
     <div className="App">
-      <div className="TextArea"> Inputy tu </div>
+      <TextArea />
       <header className="App-header">
         <p>hejka</p>
       </header>
