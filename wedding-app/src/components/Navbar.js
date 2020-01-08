@@ -1,15 +1,15 @@
 import React from 'react'
-//import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import styles from './Navbar.module.css'
 
-export const Navbar = () => {
+function Navbar() {
         return (
             <nav className={styles.Navbar}>
-                <p>Natalka&Konrad</p>
-                <p>Login</p>
+                <Link to="/" className={styles.NavbarLogo}>Natalka&Konrad</Link>
+                <NavLink to="/signin">Zaloguj</NavLink>
             </nav>
         )
 }
 
 
-
+export default Navbar

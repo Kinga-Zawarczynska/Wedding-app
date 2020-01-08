@@ -1,13 +1,24 @@
-.Navbar{
+.Navbar {
+    position: fixed;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 50vw;
     font-size: 56px;
     font-family: myFirstFont;
+    padding: 10px 0;
 }
 
 @font-face {
     font-family: myFirstFont;
     src: url(../isabela-zvpvx.otf);
-  }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transform: all 1s ease-in-out;
+}
+a:hover{
+    opacity: 0.8;
+}
