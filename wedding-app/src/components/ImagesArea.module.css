@@ -1,11 +1,7 @@
 .ImagesArea {
     order: 1;
     background: url(../images/beautiful-rustic-wedding-reception-ideas-with-lights.jpg) no-repeat;
-    background-size: 100vh 60vw;
+    background-size: cover;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 50%;
   }

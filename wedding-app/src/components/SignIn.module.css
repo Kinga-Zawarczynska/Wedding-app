@@ -1,8 +1,79 @@
 .SignIn {
-
+    width: 50vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: #ff9966;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ff5e62, #ff9966);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ff5e62, #ff9966);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+.SignInForm {
+    background: #ee9ca7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    align-self: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    box-shadow: 17px 10px 35px -7px rgb(14, 11, 14);
+}
+
+.FormTitle {
+    font-size: 20px;
+    align-self: center;
+}
+
+.FormInput {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.FormInput label {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.FormInput input {
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.FormInput input:focus {
+    border-radius: 10px;
+    border: 1px solid green;
+    background-color: transparent;
+    outline: none;
+}
+
+.FormButton {
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.FormButton:hover {
+    color: white;
+    background: #e28a8b;
+    border: 1px solid #e28a8b;
+}
+.FormButton:active {
+    color: white;
+    background: #e77779;
+    border: 1px solid #e77779;
 }

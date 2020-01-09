@@ -18,7 +18,7 @@ import styles from './SignIn.module.css'
         return (
             <div className={styles.SignIn}>
                 <form onSubmit={this.handleSubmit} className={styles.SignInForm}>
-                    <h4 className={styles.FormTitle}>Zaloguj się</h4>
+                    {/* <p className={styles.FormTitle}>Zaloguj się</p> */}
                     <div className={styles.FormInput}>
                         <label htmlFor="login">Login</label>
                         <input type="text" id="login" onChange={this.handleChange}/>
